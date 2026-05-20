@@ -67,8 +67,8 @@
   nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:1.2rem 3rem;display:flex;align-items:center;justify-content:space-between;transition:background .5s,backdrop-filter .5s,padding .5s,border-bottom .5s}
   nav.scrolled{padding:.8rem 3rem;background:rgba(7,8,10,.9);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
   .nav-brand{display:flex;align-items:center;gap:0}
-  .nav-logo-img{height:58px;width:auto;object-fit:contain;filter:brightness(0) invert(1);transition:transform .4s,filter .3s;mix-blend-mode:normal}
-  nav.scrolled .nav-logo-img{height:50px}
+  .nav-logo-img{height:58px;width:auto;object-fit:contain;background:#fff;border-radius:6px;padding:4px;transition:transform .4s;box-shadow:0 2px 12px rgba(0,0,0,.4)}
+  nav.scrolled .nav-logo-img{height:46px;padding:3px}
   .nav-logo-img:hover{transform:scale(1.04)}
   .nav-links{display:flex;gap:2.6rem;list-style:none}
   .nav-links a{font-size:.67rem;font-weight:400;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);position:relative;transition:color .3s;padding-bottom:4px}
@@ -289,8 +289,8 @@
   footer{padding:3.5rem 3rem;background:var(--black);border-top:1px solid var(--border);position:relative;z-index:2}
   .ft-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1.5rem}
   .ft-brand{display:flex;align-items:center;gap:1rem}
-  .ft-logo{height:44px;width:auto;object-fit:contain;filter:brightness(0) invert(.8);opacity:.7;transition:opacity .3s}
-  .ft-logo:hover{opacity:1}
+  .ft-logo{height:44px;width:auto;object-fit:contain;background:#fff;border-radius:5px;padding:4px;transition:opacity .3s;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+  
   .ft-copy{font-size:.68rem;letter-spacing:.1em;color:rgba(242,241,238,.25)}
   .ft-links{display:flex;gap:2rem;list-style:none}
   .ft-links a{font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(242,241,238,.3);transition:color .3s}
@@ -590,6 +590,11 @@
       <div class="dc-stars"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
       <p class="dc-txt">"A terapia na Pensare salvou meu relacionamento. Aprendemos a nos comunicar de um jeito completamente novo. Recomendo de coração para todos."</p>
       <div class="dc-author"><div class="dc-av">F</div><div><div class="dc-name">Fernanda &amp; Lucas P.</div><div class="dc-role">Terapia de casal</div></div></div>
+    </div>
+    <div class="dc reveal d4">
+      <div class="dc-stars"><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+      <p class="dc-txt">&ldquo;Nunca pensei que a psicologia pudesse ser tão transformadora. Me sinto acolhida, entendida e motivada a crescer a cada sessão. A equipe é excepcional.&rdquo;</p>
+      <div class="dc-author"><div class="dc-av">M</div><div><div class="dc-name">Mariana T.</div><div class="dc-role">Paciente há 8 meses</div></div></div>
     </div>
   </div>
 </section>
